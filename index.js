@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const PREFIX = "+cat";
+const TOKEN = process.env.TOKEN; 
 var bot = new Discord.Client();
 const fs = require("fs")
 bot.commands = new Discord.Collection();
