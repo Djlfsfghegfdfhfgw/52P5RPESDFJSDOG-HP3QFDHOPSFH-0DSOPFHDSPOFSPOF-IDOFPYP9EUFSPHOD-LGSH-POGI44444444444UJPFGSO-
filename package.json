@@ -1,0 +1,26 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "discord.js-commando": "^0.10.0",
+    "fs": "0.0.1-security",
+    "get-youtube-id": "^1.0.0",
+    "giphy-api": "^1.2.7",
+    "google-translate-api": "^2.3.0",
+    "opusscript": "0.0.6",
+    "request": "^2.85.0",
+    "youtube-info": "^1.2.0",
+    "ytdl-core": "^0.20.3"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.5"
+  }
+}

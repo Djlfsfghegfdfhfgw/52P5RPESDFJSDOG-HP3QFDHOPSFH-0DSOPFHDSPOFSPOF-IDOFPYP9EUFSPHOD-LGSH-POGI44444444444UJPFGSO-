@@ -1,0 +1,13 @@
+﻿`+catsay` **Say something trough the bot!** __Usage__: *+catsay <message>*
+`+cat8ball` **Ask the bot something** __Usage__: *+cat8ball <question>*
+`+catgif` **Searchs gif on giphy** __Usage__: *+catgif <word>*
+`+catvote` **Make vote about something** __Usage__: *+catvote <something>*
+`+catmock` **Mocks some text** __Usage__: *+catmock <text>*
+`+catrate` **Rate someone** __Usage__: *+catrate <@user>*
+`+catcookie` **You want sum cookies** __Usage__: *+catcookie [@user]*
+`+cathug` **Are ya sad and want a hug ;w;** __Usage__: *+cathug [@user]*
+`+catfangs` **That's our boss** __Usage__: *+catfangs*
+`+catjoke` **Want some gud jokes?** __Usage__: * +catjoke*
+`+catcat` **I'll show ya some gud photos** __Usage__: *+catcat*
+`+cattranslate` **I will translate better than google translate** __Usage__: *+cattranslate <language>*
+`+catlove` **oof** __Usage__: *+catlove <user>*

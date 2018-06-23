@@ -1,0 +1,7 @@
+`+catping` **Check the bot ping** __Usage__: *+catping*
+`+catid` **Gives you the id of user** __Usage__: *+catid [@user]*
+`+catavatar` **Gives you someone's avatar** __Usage__: *+catavatar [@user]*
+`+catinfo` **Gives the bot info** __Usage__: *+catinfo*
+`+catuserinfo` **Gives you the user info** __Usage__: *!userinfo [@user]*
+`+catserverinfo` **Gives you the server info** __Usage__: *+catserverinfo*
+`+catfinduser`  **Finds users with this name** __Usage__: *+catfinduser <name>*

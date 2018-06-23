@@ -1,0 +1,27 @@
+```css
+Name:
+Age:       (in moons,means months)
+Gender: (she-cat,tom)
+Clan:           (FrostClan,LeafClan,MountainClan,Fireclan or maybe u don t wanna be in a clan)
+Rank:  (kit,apprentice,medicine cat,warrior,deputy| for no clan cats:Rogue,Loner,Kittypet)
+Appearance:
+Personality:
+Backstory: (this is not required you can do this only if u want to)```
+
+**Extra:**
+For apprentices:
+-You need to specify your mentor ( required)
+
+Mentor:
+
+For warriors:
+Please specify your mate ( not required),apprentice( required if you have one ) or family ( not required ):
+
+Mate:
+Apprentice:
+Family:
+
+For every character except the non-cat characters:
+Specify your mate or your former mate( not required ),your family ( not required ) 
+
+
