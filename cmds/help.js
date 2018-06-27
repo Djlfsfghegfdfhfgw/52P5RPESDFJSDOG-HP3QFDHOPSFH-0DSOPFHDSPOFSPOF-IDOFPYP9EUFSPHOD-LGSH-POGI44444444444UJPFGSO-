@@ -45,8 +45,8 @@ module.exports.run = async (bot, message, args) => {
     .setDescription("If you need help with something feel free to join the [Support Server](https://discord.gg/xdVdWd2)")
     .setFooter("<> means required, [] means optional",message.author.displayAvatarURL)
     .setTimestamp()
-    .addField("Contact", "To contact the owner use `+catcontact`")
-    .addField("Report", "To report some bugs use `+catreport`")
+    .addField("Contact", "To contact the owner use `+contact`")
+    .addField("Report", "To report some bugs use `+report`")
     .addField("my owner will add more commands,sir","so please be pacient I have autism")
     message.channel.send(supEmbed)
 }
