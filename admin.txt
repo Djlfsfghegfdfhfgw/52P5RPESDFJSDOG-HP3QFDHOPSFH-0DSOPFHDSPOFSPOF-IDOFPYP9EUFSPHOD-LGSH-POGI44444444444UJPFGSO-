@@ -1,4 +1,4 @@
 
-`+catclear` **Clears the chat** __Usage__: *+catclear <amount>*
-`+catmute` **Mutes someone** __Usage__: *+catmute [user] <time>*
+`+clear` **Clears the chat** __Usage__: *+tclear <amount>*
+`+mute` **Mutes someone** __Usage__: *+mute [user] <time>*
 
