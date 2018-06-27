@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const PREFIX = "+cat";
+const PREFIX = "+";
 const TOKEN = process.env.TOKEN; 
 var bot = new Discord.Client();
 const fs = require("fs")
@@ -30,7 +30,7 @@ bot.on("message", function() {
     console.log;
 });
 
-//bot.user.setGame("for prey || +cathelp");
+//bot.user.setGame("for prey || +help");
 
 
 bot.on("guildMemberAdd", function(member) {
