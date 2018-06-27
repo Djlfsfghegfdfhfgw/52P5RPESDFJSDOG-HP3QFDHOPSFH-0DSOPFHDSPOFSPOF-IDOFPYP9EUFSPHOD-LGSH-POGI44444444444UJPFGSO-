@@ -6,8 +6,7 @@
 `+rate` **Rate someone** __Usage__: *+rate <@user>*
 `+cookie` **You want sum cookies** __Usage__: *+cookie [@user]*
 `+hug` **Are ya sad and want a hug ;w;** __Usage__: *+hug [@user]*
-`+fangs` **That's our boss** __Usage__: *+catfangs*
-`+joke` **Want some gud jokes?** __Usage__: * +catjoke*
+`+fangs` **That's our boss** __Usage__: *+fangs*
 `+cat` **I'll show ya some gud photos** __Usage__: *+cat*
 `+translate` **I will translate better than google translate** __Usage__: *+translate <language>*
 `+love` **oof** __Usage__: *+love <user>*
