@@ -2,6 +2,6 @@
 `+id` **Gives you the id of user** __Usage__: *+id [@user]*
 `+avatar` **Gives you someone's avatar** __Usage__: *+avatar [@user]*
 `+info` **Gives the bot info** __Usage__: *+catinfo*
-`+userinfo` **Gives you the user info** __Usage__: *!userinfo [@user]*
+`+userinfo` **Gives you the user info** __Usage__: *+userinfo [@user]*
 `+catserverinfo` **Gives you the server info** __Usage__: *+serverinfo*
 `+finduser`  **Finds users with this name** __Usage__: *+finduser <name>*
