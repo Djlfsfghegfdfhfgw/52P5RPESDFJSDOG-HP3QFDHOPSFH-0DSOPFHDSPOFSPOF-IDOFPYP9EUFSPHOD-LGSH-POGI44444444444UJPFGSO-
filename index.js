@@ -26,7 +26,7 @@ fs.readdir("./cmds", (err, files) => {
 });
 
 bot.on("message", function() {
-    bot.user.setActivity("for prey || +cathelp",{type:"WATCHING"});
+    bot.user.setActivity("for prey || +help",{type:"WATCHING"});
     console.log;
 });
 
