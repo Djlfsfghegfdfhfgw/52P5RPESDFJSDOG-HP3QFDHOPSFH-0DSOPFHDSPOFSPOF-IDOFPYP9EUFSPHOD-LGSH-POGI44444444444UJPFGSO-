@@ -13,15 +13,12 @@ For apprentices:
 -You need to specify your mentor ( required)
 
 Mentor:
-
 For warriors:
-Please specify your mate ( not required),apprentice( required if you have one ) or family ( not required ):
-
+Please specify your mate ( not required ),apprentice( required if you have one ) or family ( not required ):
 Mate:
 Apprentice:
 Family:
 
-For every character except the non-cat characters:
-Specify your mate or your former mate( not required ),your family ( not required ) 
-
+**Atention**
+``You cannot make a Starclan/Dark forest cat character,if you want one,one of your clan cat characters should die.``
 
