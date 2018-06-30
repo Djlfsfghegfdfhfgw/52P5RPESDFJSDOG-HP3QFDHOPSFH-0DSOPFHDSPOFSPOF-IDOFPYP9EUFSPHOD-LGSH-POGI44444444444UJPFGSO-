@@ -27,7 +27,7 @@ module.exports.run = async (bot, message, args) => {
 
             },
         {
-         name:"Template",
+         name:"Extra",
          value:(extra),
          inline:false
                 }
