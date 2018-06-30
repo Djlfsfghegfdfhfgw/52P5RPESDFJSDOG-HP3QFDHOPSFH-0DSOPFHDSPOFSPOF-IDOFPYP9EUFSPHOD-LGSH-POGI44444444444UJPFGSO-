@@ -6,7 +6,7 @@ module.exports.run = async (bot, message, args) => {
     const owo = fs.readFileSync("./owo.txt", "utf8");
     message.channel.send({  
       embed : {         
-        title: " ",
+        title: "Template",
         color: 4886754,
         description:(owo)
 }
