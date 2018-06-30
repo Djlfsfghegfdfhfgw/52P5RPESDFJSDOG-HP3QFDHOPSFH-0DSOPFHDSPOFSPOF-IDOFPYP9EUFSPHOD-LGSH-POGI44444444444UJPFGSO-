@@ -8,7 +8,6 @@ Appearance:
 Personality:
 Backstory: (this is not required you can do this only if u want to)```
 
-**Extra:**
 For apprentices:
 -You need to specify your mentor ( required)
 
