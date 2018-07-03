@@ -1,9 +1,9 @@
 ```css
 Name:
-Age:       (in moons,means months)
-Gender: (she-cat,tom)
-Clan:           (FrostClan,LeafClan,MountainClan,Fireclan or maybe u don t wanna be in a clan)
-Rank:  (kit,apprentice,medicine cat,warrior,deputy| for no clan cats:Rogue,Loner,Kittypet)
+Age:       
+Gender: 
+Clan:           
+Rank:  
 Appearance:
 Personality:
-Backstory: (this is not required you can do this only if u want to)```
+Backstory: ```
