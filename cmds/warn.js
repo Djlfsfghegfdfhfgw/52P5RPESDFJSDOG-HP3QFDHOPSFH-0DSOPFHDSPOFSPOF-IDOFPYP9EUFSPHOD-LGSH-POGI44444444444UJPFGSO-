@@ -9,7 +9,7 @@ exports.run = (client, message, args) => {
   if (reason.length < 1) return message.reply('You must have a reason for the warning.');
 
   let dmsEmbed = new Discord.RichEmbed()
-  .setTitle("Warn")
+  .setTitle("Warning")
   .setColor("#0afffa")
   .setDescription(`You have been warned on \`${message.guild.name}\``)
   .setFooter("If you're going to get 3-4 warnings you're going to get kicked nor banned",message.author.displayAvatarURL)
