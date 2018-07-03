@@ -12,9 +12,10 @@ exports.run = (client, message, args) => {
   .setTitle("Warn")
   .setColor("#0afffa")
   .setDescription(`You have been warned on \`${message.guild.name}\``)
+  .setFooter("If you're going to get 3-4 warnings you're going to get kicked nor banned")
   .addField("Warned by", message.author.tag)
   .addField("Reason", reason);
-
+   
   user.send(dmsEmbed);
 
   message.delete();
