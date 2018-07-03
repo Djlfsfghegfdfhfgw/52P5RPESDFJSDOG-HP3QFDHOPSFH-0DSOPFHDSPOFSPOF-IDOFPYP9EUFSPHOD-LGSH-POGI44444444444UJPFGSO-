@@ -25,7 +25,8 @@ exports.run = (client, message, args) => {
   .setColor("#0afffa")
   .setDescription(`Warning`)
   .addField("Warned by", message.author.tag)
-  .addField("Reason", reason);
+  .addField("Reason", reason)
+  .addField("The user that has been warned is",user);
 
 
   let reportschannel = message.guild.channels.find(`name`, "logs");
