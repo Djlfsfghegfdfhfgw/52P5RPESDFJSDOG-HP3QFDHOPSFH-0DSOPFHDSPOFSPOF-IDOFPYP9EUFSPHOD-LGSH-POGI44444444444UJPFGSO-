@@ -19,6 +19,20 @@ exports.run = (client, message, args) => {
 
   message.delete();
 
+ let reportEmbed = new Discord.RichEmbed()
+  .setTitle("Warn")
+  .setColor("#0afffa")
+  .setDescription(`Warning`)
+  .addField("Warned by", message.author.tag)
+  .addField("Reason", reason);
+
+
+  let reportschannel = message.guild.channels.find(`name`, "logs");
+  if(!reportschannel) return message.channel.send("Couldn't find the reports channel.");
+
+
+  message.delete().catch(O_o=>{});
+  reportschannel.send(reportEmbed);
 }
 
 exports.help = {
