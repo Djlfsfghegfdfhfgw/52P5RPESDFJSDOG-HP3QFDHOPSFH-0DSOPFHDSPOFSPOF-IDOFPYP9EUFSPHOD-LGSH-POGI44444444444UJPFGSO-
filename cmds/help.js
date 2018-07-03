@@ -33,7 +33,7 @@ module.exports.run = async (bot, message, args) => {
 
     let modembed = new Discord.RichEmbed()
     .setColor("#0afffa")
-    .setTitle("**Admin commands (2)**")
+    .setTitle("**Admin commands (3)**")
     .setDescription(adminCommands)
     
     message.channel.send(modembed);
