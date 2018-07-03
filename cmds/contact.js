@@ -4,7 +4,7 @@ module.exports.run = async (bot, message, args) => {
   if(args[0] == "help"){
     let helpembxd = new Discord.RichEmbed()
     .setColor("#0afffa")
-    .addField("Contact Command", "Usage: +catcontact <reason>")
+    .addField("Contact Command", "Usage: +contact <reason>")
 
     message.channel.send(helpembxd);
     return;
