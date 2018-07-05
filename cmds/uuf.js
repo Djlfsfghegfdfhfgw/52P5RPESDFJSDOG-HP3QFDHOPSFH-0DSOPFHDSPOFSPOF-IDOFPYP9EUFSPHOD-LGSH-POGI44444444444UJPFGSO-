@@ -5,6 +5,8 @@ module.exports.run = async (bot, message, args) => {
   if(!message.member.hasPermission("ADMINISTRATOR")) return;
         const info = fs.readFileSync("./rules.txt", "utf8");
 
+message.channel.send({files: ["\sanuta.gif"]})
+
     message.channel.send({  
      embed : {
     title: "Welcome",
