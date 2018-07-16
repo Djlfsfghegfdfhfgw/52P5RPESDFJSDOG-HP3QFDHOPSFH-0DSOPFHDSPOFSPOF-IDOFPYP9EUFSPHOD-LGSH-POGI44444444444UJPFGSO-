@@ -27,8 +27,8 @@ module.exports.run = async (bot, message, args) => {
   var sumsum = new Discord.RichEmbed()
   
             .addField("Voting Finished:", "----------------------------------------\n" +
-                                          "Total votes (NO): " + `${YES_Count-1}\n` +
-                                          "Total votes (Yes): " + `${NO_Count-1}\n` +
+                                          "Total votes (Yes): " + `${YES_Count-1}\n` +
+                                          "Total votes (No): " + `${NO_Count-1}\n` +
                                           "----------------------------------------", true)
 
             .setColor("0x#FF0000")
