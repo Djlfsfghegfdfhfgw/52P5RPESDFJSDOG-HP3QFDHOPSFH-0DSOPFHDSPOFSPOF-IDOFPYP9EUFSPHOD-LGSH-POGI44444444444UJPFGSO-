@@ -1,4 +1,4 @@
-﻿`+say` **Say something trough the bot!** __Usage__: *+say <message>*
+`+say` **Say something trough the bot!** __Usage__: *+say <message>*
 `+8ball` **Ask the bot something** __Usage__: *+8ball <question>*
 `+gif` **Searchs gif on giphy** __Usage__: *+gif <word>*
 `+vote` **Make vote about something** __Usage__: *+vote <something>*
@@ -10,3 +10,4 @@
 `+cat` **I'll show ya some gud photos** __Usage__: *+cat*
 `+translate` **I will translate better than google translate** __Usage__: *+translate <language>*
 `+love` **oof** __Usage__: *+love <user>*
+`+dog` **I'll show ya some cutie doggos** __Usage__: *+dog*
