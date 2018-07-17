@@ -19,7 +19,7 @@ module.exports.run = async (bot, message, args) => {
 
     let funEmbed = new Discord.RichEmbed()
     .setColor("#0afffa")
-    .setTitle("**Fun commands (12)**")
+    .setTitle("**Fun commands (13)**")
     .setDescription(funcommands)
 
     message.channel.send(funEmbed);
