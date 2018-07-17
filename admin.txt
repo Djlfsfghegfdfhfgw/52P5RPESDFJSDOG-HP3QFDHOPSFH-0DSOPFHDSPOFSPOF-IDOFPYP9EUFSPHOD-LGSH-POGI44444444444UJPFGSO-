@@ -1,5 +1,3 @@
-
 `+clear` **Clears the chat** __Usage__: *+clear <amount>*
 `+mute` **Mutes someone** __Usage__: *+mute [user] <time>*
 `+warn` **Warns people** __Usage__: *+warn [user] <reason>*
-
