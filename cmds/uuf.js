@@ -13,7 +13,7 @@ message.channel.send({files: ["\sanuta.gif"]})
     footer: {
       text: "↓ please scroll down if you want to roleplay you should read everything from below ↓"
     },
-    description: "This is a roleplay/community server,fan-made roleplay,if you have any questions ask a staff member or ask in <#409334966627991577>,if you don't want to roleplay and you've read the rules please type ?accept in the <#409339530831724548> if you want to talk about books with other people type ?books in the <#409339530831724548>",
+    description: "This is a roleplay/community server,fan-made roleplay,if you have any questions ask a staff member or ask in <#409334966627991577>,if you don't want to roleplay and you've read the rules please type ?accept in the <#409339530831724548>",
     color: 4886754,
     fields: [
       {
