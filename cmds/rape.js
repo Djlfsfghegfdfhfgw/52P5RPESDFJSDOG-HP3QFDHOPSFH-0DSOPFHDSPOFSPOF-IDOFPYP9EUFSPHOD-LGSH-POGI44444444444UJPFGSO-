@@ -17,25 +17,25 @@ module.exports.run = async (bot, message, args) => {
         fields: [ 
             {
           name:"If you want to read the books click here:",
-          value:"[Drive](https://drive.google.com/drive/folders/0BwSIgRsWbcBGU2NNaW1icXZpNzQ)",
+          value:"[Link](https://drive.google.com/drive/folders/0BwSIgRsWbcBGU2NNaW1icXZpNzQ)",
           inline:true
 
             },
             {
               name:"RolePlay and More Doc:",
-              value:"[Drive]( https://docs.google.com/document/d/1HqtWglKmWv0hHng1J1HJaROVahrfM825rYfQLyKp8C4/edit?usp=sharing)",
+              value:"[Link]( https://docs.google.com/document/d/1HqtWglKmWv0hHng1J1HJaROVahrfM825rYfQLyKp8C4/edit?usp=sharing)",
               inline:true
     
                 },
                 {
                   name:"Character Applications:",
-                  value:"[Drive]( https://goo.gl/forms/q7BpKWgKYPkQSpkZ2)",
+                  value:"[Link]( https://goo.gl/forms/q7BpKWgKYPkQSpkZ2)",
                   inline:true
         
                     },
                     {
                       name:"Medicine Cat Applications:",
-                      value:"[Drive]( https://goo.gl/forms/CtLUuYXtEY8jqh8k2)",
+                      value:"[Link]( https://goo.gl/forms/CtLUuYXtEY8jqh8k2)",
                       inline:true
                         },    
                         {
