@@ -4,9 +4,9 @@ module.exports.run = async (bot, message, args) => {
   if(args[0] == "help"){
     let helpembxd = new Discord.RichEmbed()
     .setColor("#0afffa")
-    .addField("clear Command", "Usage: +catclear <amount>")
+    .addField("clear Command", "Usage: +clear <amount>")
 
-    message.channel.send(helpembxd);
+    message.channel.send
     return;
   } 
 
