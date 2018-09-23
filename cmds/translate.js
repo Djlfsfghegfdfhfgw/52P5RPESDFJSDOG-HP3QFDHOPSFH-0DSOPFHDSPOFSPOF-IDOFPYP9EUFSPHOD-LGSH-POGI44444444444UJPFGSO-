@@ -27,14 +27,14 @@ module.exports.run = async (bot, message, args) => {
       args = args.join(' ').slice(prefix.length);
       let translation;
 
-      if (!Langs.includes(transArg)) return message.channel.send(`Invalid language ${message.author}! (maybe check for typos?)\nYou can see all languages with \`${prefix}translate\`.`);
+      if (!Langs.includes(transArg)) return message.channel.send(`Invalid language ${message.author}! (maybe check for typos?)\nYou can see all languages with \`${prefix}translators language\`.`);
       args = args.slice(transArg.length);
 
       translate(args, {to: transArg}).then(res => {
 
         const embed = new Discord.RichEmbed()
         .setDescription(res.text)
-        .setColor("#0afffa");
+        .setColor("0afffa");
         return message.channel.send(embed);
 
       });
