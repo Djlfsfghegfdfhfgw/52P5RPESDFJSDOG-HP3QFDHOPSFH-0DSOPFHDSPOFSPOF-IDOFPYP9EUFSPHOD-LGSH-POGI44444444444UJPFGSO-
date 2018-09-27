@@ -40,8 +40,6 @@ bot.on("guildMemberAdd", function(member) {
           "2⃣ Read the recent <#381349547701436429> 📄\n"+
           "3⃣ If you still have questions, ask in the <#406754790144606208>\n");
 });
-var role = member.guild.roles.find('name','New follower of the cult')
-member.addRole(role)
 
 bot.on("message", function(message) {
     if (message.author.bot) return; 
