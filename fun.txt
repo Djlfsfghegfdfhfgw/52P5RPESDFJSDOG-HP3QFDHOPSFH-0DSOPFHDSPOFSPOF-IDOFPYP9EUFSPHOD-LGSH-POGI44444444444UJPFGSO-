@@ -11,3 +11,4 @@
 `+translate` **I will translate better than google translate** __Usage__: *+translate <language>*
 `+love` **oof** __Usage__: *+love <user>*
 `+dog` **I'll show ya some cutie doggos** __Usage__: *+dog*
+`+joke` **I'll give ya some jokes** __Usage__: *+joke*
