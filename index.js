@@ -38,7 +38,7 @@ bot.on("guildMemberAdd", function(member) {
           " **Welcome to " + `${member.guild.name}` + "**\n" +
           "1⃣ Read the <#381349368151932939>\n"+
           "2⃣ Read the recent <#381349547701436429> 📄\n"+
-          "3⃣ If you still have questions, ask in the <#406754790144606208>\n");
+          "3⃣ If you still have questions, use the command +halp\n");
 });
 
 bot.on("message", function(message) {
