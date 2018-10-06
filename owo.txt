@@ -1,9 +1,0 @@
-```css
-Name:
-Age:       
-Gender: 
-Clan:           
-Rank:  
-Appearance:
-Personality:
-Backstory: ```
