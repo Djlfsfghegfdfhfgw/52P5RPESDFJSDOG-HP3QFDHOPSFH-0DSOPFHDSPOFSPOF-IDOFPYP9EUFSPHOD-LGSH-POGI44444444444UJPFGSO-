@@ -46,7 +46,7 @@ module.exports.run = async (bot, message, args) => {
     .setFooter("<> means required, [] means optional",message.author.displayAvatarURL)
     .setTimestamp()
     .addField("Contact", "To contact the owner use `+contact`")
-    .addField("my owner will add more commands,sir","so please be pacient I have autism")
+    .addField("my owner will add more commands,sir","so please be pacient I have autism,also use the command +halp for more informations")
     message.channel.send(supEmbed)
 }
 
