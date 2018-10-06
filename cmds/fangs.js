@@ -15,7 +15,7 @@ module.exports.run = async (bot, message, args) => {
             },
             {
               name: "Steam",
-              value: "[Steam Profile](https://steamcommunity.com/id/MrDoggery/)",
+              value: "[Steam Profile](https://steamcommunity.com/id/Littlefangs/)",
               inline: true
             },
             {
