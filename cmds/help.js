@@ -42,7 +42,7 @@ module.exports.run = async (bot, message, args) => {
     .setDescription(" ")
     .setColor("#0afffa")
     .setTitle("Support")
-    .setDescription("If you need help with something feel free to join the [Support Server](https://discord.gg/2Uwcjm2)")
+    .setDescription("If you need help with something feel free to join the [Support Server](https://discord.gg/CTu2haz)")
     .setFooter("<> means required, [] means optional",message.author.displayAvatarURL)
     .setTimestamp()
     .addField("Contact", "To contact the owner use `+contact`")
