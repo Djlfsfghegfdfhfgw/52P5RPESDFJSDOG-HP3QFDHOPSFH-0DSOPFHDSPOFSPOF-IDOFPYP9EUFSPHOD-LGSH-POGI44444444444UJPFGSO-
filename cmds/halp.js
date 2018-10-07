@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const fs = require("fs");
 module.exports.run = async (bot, message, args) => {
+    const commands = fs.readFileSync("./commands.txt", "utf8");
 
     message.channel.send({  
      embed : {
@@ -25,7 +26,7 @@ module.exports.run = async (bot, message, args) => {
         },
         {
         name:"✤ ᴄ ᴏ ᴍ ᴍ ᴀ ɴ ᴅ s ✤",
-        value:"a commmand for a roleplay role will be added soon,type ?art if you're an artsy boi and ?mention if you want to get the latest news from the cult",
+        value:(commands),
         inline:true
         },
         {
