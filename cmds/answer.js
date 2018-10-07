@@ -8,7 +8,7 @@ module.exports.run = async (bot, message, args) => {
    
     const id = args.shift();
     const sayMessage = args.join(" ")
-    if(!sayMessage) return message.reply("Usage `+catanswer ID  your message`")
+    if(!sayMessage) return message.reply("Usage `+answer ID  your message`")
     
 
    let contact = new Discord.RichEmbed()
@@ -17,7 +17,7 @@ module.exports.run = async (bot, message, args) => {
    .setThumbnail(Owner.displayAvatarURL)
    .setTitle("Response  from your contact!")
    .addField("Response:", sayMessage)
-   .addField("Support Server", "[Lil Fangs server](https://discord.gg/bd6wUWH)")
+   .addField("Support Server", "[Lil Fangs server](https://discord.gg/6qWbU5f)")
    .setTimestamp()
 
     bot.users.get(id).send(contact);
