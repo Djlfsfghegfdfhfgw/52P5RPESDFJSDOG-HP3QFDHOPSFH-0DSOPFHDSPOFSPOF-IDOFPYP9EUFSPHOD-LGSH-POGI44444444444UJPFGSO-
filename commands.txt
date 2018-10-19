@@ -1,6 +1,7 @@
 **A commmand for a roleplay role will be added soon**
 
->`?mention` **,this command is for getting notifications about the newest updates**
->`?art` ,if you're an artsy boi and want to feel special**
->`?gamer`**,if you're a tru gamer**
->`?romania`**,if you speak romanian**
+> `?mention` **,this command is for getting notifications about the newest updates**
+> `?art` ,if you're an artsy boi and want to feel special**
+> `?gamer`**,if you're a tru gamer**
+> `?romania`**,if you speak romanian**
+> `?rp`**,if you like to roleplay in some random places**
