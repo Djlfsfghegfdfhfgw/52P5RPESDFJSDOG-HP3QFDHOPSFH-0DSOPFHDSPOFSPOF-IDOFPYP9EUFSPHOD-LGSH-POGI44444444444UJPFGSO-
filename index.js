@@ -26,11 +26,11 @@ fs.readdir("./cmds", (err, files) => {
 });
 
 bot.on("message", function() {
-    bot.user.setActivity("to you || +help",{type:"LISTENING"});
+    bot.user.setActivity("to Frosty || +help",{type:"LISTENING"});
     console.log;
 });
 
-//bot.user.setGame("to you || +help");
+//bot.user.setGame("Frosty the snowcat || +help");
 
 
 bot.on("guildMemberAdd", function(member) {
