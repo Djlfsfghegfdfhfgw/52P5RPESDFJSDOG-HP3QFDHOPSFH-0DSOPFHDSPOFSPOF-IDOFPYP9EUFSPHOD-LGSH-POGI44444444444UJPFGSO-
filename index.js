@@ -26,7 +26,7 @@ fs.readdir("./cmds", (err, files) => {
 });
 
 bot.on("message", function() {
-    bot.user.setActivity("to Frosty || +help",{type:"LISTENING"});
+    bot.user.setActivity("Frosty the snowcat || +help",{type:"LISTENING"});
     console.log;
 });
 
