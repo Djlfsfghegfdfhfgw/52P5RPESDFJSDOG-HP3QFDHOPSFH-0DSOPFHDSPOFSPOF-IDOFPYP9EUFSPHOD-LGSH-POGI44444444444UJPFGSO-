@@ -20,12 +20,12 @@ module.exports.run = async (bot, message, args) => {
             },
             {
               name: "Steam Group",
-              value: "[Lil Fangs friends](https://steamcommunity.com/groups/Fluffz)",
+              value: "[Lil Fangs friends](https://steamcommunity.com/groups/LilFangs)",
               inline: true
             },
             {
               name: "Discord",
-              value: "[Lil's rp server](https://discord.gg/nfMQfTA)",
+              value: "[Fangs' server](https://discord.gg/CTu2haz)",
               inline: true
             }
           ]
