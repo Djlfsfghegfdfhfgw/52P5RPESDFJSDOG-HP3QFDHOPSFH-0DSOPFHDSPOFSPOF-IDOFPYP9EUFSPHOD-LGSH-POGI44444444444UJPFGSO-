@@ -12,3 +12,4 @@
 `+love` **oof** __Usage__: *+love <user>*
 `+dog` **I'll show ya some cutie doggos** __Usage__: *+dog*
 `+joke` **I'll give ya some jokes** __Usage__: *+joke*
+`+morse` **Probably the morse code** __Usage__: *+morse*
