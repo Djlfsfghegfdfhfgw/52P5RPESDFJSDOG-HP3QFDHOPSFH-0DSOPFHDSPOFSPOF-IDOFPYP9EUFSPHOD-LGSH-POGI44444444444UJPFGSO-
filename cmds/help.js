@@ -12,28 +12,28 @@ module.exports.run = async (bot, message, args) => {
     
     let descriptionEmbed = new Discord.RichEmbed()
     .setColor("#0afffa")
-    .setTitle("**Description**")
+    .setTitle("Description")
     .setDescription("Hi there,I'm designed to take care of the cats and look after sickness as a model primarily used to take care of elders, especially kits I'm designed to act kind, patient and obedient.")
 
     message.channel.send(descriptionEmbed);
 
     let funEmbed = new Discord.RichEmbed()
     .setColor("#0afffa")
-    .setTitle("**Fun commands (16)**")
+    .setTitle("Fun commands (17)")
     .setDescription(funcommands)
 
     message.channel.send(funEmbed);
 
     let infoEmbed = new Discord.RichEmbed()
     .setColor("#0afffa")
-    .setTitle("**Info commands (7)**")
+    .setTitle("Info commands (7)")
     .setDescription(infoList)
 
     message.channel.send(infoEmbed);
 
     let modembed = new Discord.RichEmbed()
     .setColor("#0afffa")
-    .setTitle("**Admin commands (2)**")
+    .setTitle("Admin commands (2)")
     .setDescription(adminCommands)
     
     message.channel.send(modembed);
