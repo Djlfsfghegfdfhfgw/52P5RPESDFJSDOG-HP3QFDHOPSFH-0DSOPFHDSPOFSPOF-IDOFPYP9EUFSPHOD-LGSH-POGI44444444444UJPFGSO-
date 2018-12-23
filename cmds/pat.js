@@ -23,5 +23,6 @@ if (!message.mentions.users.first()) return message.channel.send(`Please mention
 message.channel.send(`<@${message.author.id}> pat ${args[0]}`, {embed: patEmb})
 
 }
-name: "pat"
-}
+module.exports.help = {
+    name:"pat"
+  }
