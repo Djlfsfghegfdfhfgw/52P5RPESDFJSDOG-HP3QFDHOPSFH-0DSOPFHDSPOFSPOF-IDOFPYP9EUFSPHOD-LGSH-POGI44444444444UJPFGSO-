@@ -6,7 +6,7 @@ module.exports.run = async (bot, message, args) => {
 
     message.channel.send({  
      embed : {
-    title: "»»————- Welcome/Bun venit/Welkom/Bienvenue ————-««",
+    title: "»»————- no rules owo ————-««",
     description:(rules),
     color: 4886754
 }
