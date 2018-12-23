@@ -14,3 +14,4 @@
 `+joke` **I'll give ya some jokes** __Usage__: *+joke*
 `+morse` **Probably the morse code** __Usage__: *+morse*
 `+gay` **Your mom gay** __Usage__: *+gay*
+`+smoke` **MOM I'M SMOKIG** __Usage__: *+smoke*
