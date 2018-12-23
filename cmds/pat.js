@@ -20,8 +20,7 @@ if(!args[0]) {
 if (!message.mentions.users.first()) return message.channel.send(`Please mention someone!`).then(msg => {
     msg.delete(3000)
   });
-message.channel.send(`<@${message.author.id}> pat ${args[0]}`, {embed: patEmb});
-
+message.channel.send(`<@${message.author.id}> pat ${args[0]}`, {embed: patEmb})
 
 }
 name: "pat"
