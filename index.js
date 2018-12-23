@@ -24,29 +24,23 @@ fs.readdir("./cmds", (err, files) => {
         bot.commands.set(props.help.name, props);
     });
 });
-
+let index = 0;
 client.on('ready', function() {
-    setInterval(async () => {
-  const statuslist = [
-    `<help | ${bot.guilds.size} guilds`,
-    `<help | ${bot.channels.size} channels`,
-    `<help | ${bot.users.size} users`
-  ];
-  const random = Math.floor(Math.random() * statuslist.length);
-
-  try {
-    await bot.user.setPresence({
-      game: {
-        name: `${statuslist[random]}`,
-        type: "PLAYING"
-        //url: 'https://www.twitch.tv/spokloo'
-      },
-      status: "online"
-    });
-  } catch (error) {
-    console.error(error);
-  }
-}, 10000);
+    this.client.setInterval(async () => {
+        const statuslist = [
+            `@${this.user.username} | ${this.users.size} ♪`,
+            `@${this.user.username} | ${this.shard.count} ♪`,
+            `@${this.user.username} | ${this.guilds.size} ♪`
+        ];
+        try {
+            await this.user.setActivity(statuslist[index]);
+        } catch (error) {
+            console.error(error);
+        };
+        if (index === statuslist.length)
+            return index = 0;
+        else +index;
+    }, 300000);
     console.log;
 });
 
