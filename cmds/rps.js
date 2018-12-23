@@ -55,7 +55,7 @@ exports.run = async (bot, message, args, color, prefix) => {
     }
     message.channel.send(response);
   } else {
-    message.channel.send(`You need to use \`${prefix}rps\` <rock|paper|scissors>`);
+    message.channel.send(`You need to use \`+rps\` < rock | paper | scissors >`);
   }
 }
 
