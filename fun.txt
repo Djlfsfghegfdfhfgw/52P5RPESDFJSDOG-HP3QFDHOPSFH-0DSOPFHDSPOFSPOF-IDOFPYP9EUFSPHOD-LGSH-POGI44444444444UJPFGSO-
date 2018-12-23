@@ -15,3 +15,4 @@
 `+morse` **Probably the morse code** __Usage__: *+morse*
 `+gay` **Your mom gay** __Usage__: *+gay*
 `+smoke` **MOM I'M SMOKIG** __Usage__: *+smoke*
+`+rps` **Rock,paper,scissors!** __Usage__: *+rps <rock|paper|scissors>*
