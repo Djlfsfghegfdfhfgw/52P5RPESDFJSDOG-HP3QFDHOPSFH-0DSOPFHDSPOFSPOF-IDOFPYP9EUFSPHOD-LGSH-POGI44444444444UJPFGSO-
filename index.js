@@ -25,13 +25,8 @@ fs.readdir("./cmds", (err, files) => {
     });
 });
 
-let statuses = ["owo |+help","with Froststar|+help"];
-client.on('ready', () => {
-    setInterval(function() {
-        let status = statuses[Math.floor(Math.random()*statuses.length)];
-        client.user.setPresence({game: {name: status},status: 'online'});
-        client.user.setPresence({game: {name: status},status: 'online'});
-    }, 10000)
+bot.on("message", function() {
+    bot.user.setActivity("Froststar || +help",{type:"LISTENING"});
     console.log;
 });
 
