@@ -25,7 +25,7 @@ fs.readdir("./cmds", (err, files) => {
     });
 });
 
-let statuses = ["owo |+help","with Froststar|+help]
+let statuses = ["owo |+help","with Froststar|+help"]
 client.on('ready', () => {
     setInterval(function() {
         let status = statuses[Math.floor(Math.random()*statuses.length)];
