@@ -15,11 +15,6 @@ module.exports.run = async (bot, message, args) => {
             inline:true
         },
         {
-         name:"❁ ᴄ ᴏ ʟ ᴏ ᴜ ʀ s ❁",
-         value:"Use ?[colour] in order to get your favourite colour,example: ?red",
-         inline:true
-        },
-        {
         name: "❃ ᴏ ᴛ ʜ ᴇ ʀ s ᴛ ᴜ ғ ғ s ❃",
         value:"If you wonder where the other text channels are,just check the rules for some commands.",
        inline:true
