@@ -26,7 +26,7 @@ fs.readdir("./cmds", (err, files) => {
 });
 
 bot.on("message", function() {
-    bot.user.setActivity("communism || +help",{type:"WATCHING"});
+    bot.user.setActivity("communism || +help",{type:"STREAMING",url: "https://www.twitch.tv/oofman_" })
     console.log;
 });
 
