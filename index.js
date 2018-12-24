@@ -26,7 +26,7 @@ fs.readdir("./cmds", (err, files) => {
 });
 
 bot.on("message", function() {
-    bot.user.setActivity("Froststar || +help",{type:"LISTENING"});
+    bot.user.setActivity("communism || +help",{type:"WATCHING"});
     console.log;
 });
 
