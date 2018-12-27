@@ -24,14 +24,30 @@ fs.readdir("./cmds", (err, files) => {
         bot.commands.set(props.help.name, props);
     });
 });
-
-bot.on("message", function() {
-    bot.user.setActivity("communism || +help",{type:"STREAMING",url: "https://www.twitch.tv/oofman_" })
-    console.log;
+    bot.on('ready', function() {
+        setInterval(async () => {
+      const statuslist = [
+        `<help | ${bot.guilds.size} guilds`,
+        `<help | ${bot.channels.size} channels`,
+        `<help | ${bot.users.size} users`
+      ];
+      const random = Math.floor(Math.random() * statuslist.length);
+  
+      try {
+        await bot.user.setPresence({
+          game: {
+            name: `${statuslist[random]}`,
+            type: "PLAYING"
+            //url: 'https://www.twitch.tv/spokloo'
+          },
+          status: "online"
+        });
+      } catch (error) {
+        console.error(error);
+      }
+    }, 10000);
+      console.log;
 });
-
-//bot.user.setGame("Froststar || +help");
-
 
 bot.on("guildMemberAdd", function(member) {
     member.guild.channels.find("name", "welcome-room").send("<:1_:494901340426862592> "+ member.toString() +
