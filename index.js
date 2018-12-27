@@ -31,6 +31,9 @@ fs.readdir("./cmds", (err, files) => {
         `mama night||+help`,
         `your secrets||+help`,
         `communism||+help`,
+        `your life||+help`,
+        `the cult||+help`,
+        `sadness||+help`,
         `${bot.users.size} comrades||+help`
       ];
       const random = Math.floor(Math.random() * statuslist.length);
