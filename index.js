@@ -27,9 +27,10 @@ fs.readdir("./cmds", (err, files) => {
     bot.on('ready', function() {
         setInterval(async () => {
       const statuslist = [
-        `<help | ${bot.guilds.size} guilds`,
-        `<help | ${bot.channels.size} channels`,
-        `<help | ${bot.users.size} users`
+        `prey||+help`,
+        `mama night||+help`
+        `your secrets||+help`,
+        `${bot.users.size} comrades||+help`
       ];
       const random = Math.floor(Math.random() * statuslist.length);
   
@@ -37,7 +38,7 @@ fs.readdir("./cmds", (err, files) => {
         await bot.user.setPresence({
           game: {
             name: `${statuslist[random]}`,
-            type: "PLAYING"
+            type: "WATCHING"
             //url: 'https://www.twitch.tv/spokloo'
           },
           status: "online"
