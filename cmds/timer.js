@@ -1,9 +1,11 @@
 const ms = require('ms')
+const fs = require("fs")
 const Discord = require("discord.js");
 
 module.exports.run = (bot, message, args, discord) => {
   let time = args.join(' ')
   let embed = new discord.RichEmbed()
+  let descriptionEmbed = new Discord.RichEmbed()
   .setTitle("Fangs Timer")
   .setDescription("Okay, I'll count down, and let you know when the time is up!")
   .setTimestamp()
