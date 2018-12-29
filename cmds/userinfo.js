@@ -23,7 +23,7 @@ client.on('message', message => { //Message Event | Listener
             .addField('Avatar', message.author.avatar, true) //The ID of the user's avatar //Inline True or false
             .addField('AvatarURL', message.author.avatarURL({
                 format: 'png'
-            }), true) //{options} options are Size?: 128 | 256 | 512 | 1024 | 2048, Format?: "webp" | "png" | "jpg" | "gif" //.defaultAvatarURL() A link to the user's default avatar //.displayAvatarURL() A link to the user's avatar if they have one. Otherwise a link to their default avatar will be returned
+            }), true)
             .addField('AvatarURL', message.author.avatarURL({
                 size: '2048'
             }), true)
@@ -45,6 +45,7 @@ client.on('message', message => { //Message Event | Listener
             .setTimestamp() //The timestamp of this embed
 
         message.channel.send(UserInfo);
+    });
     }
 module.exports.help = {
         name: "userinfo"
