@@ -14,7 +14,7 @@ module.exports.run = (bot, message, args, discord) => {
   
   setTimeout(() => {
     embed.setDescription(`BEEP! The time's up! <@${message.author.id}>`)
-    message.channel.send(embed)
+    message.channel.send(embed);
   }, ms(time))
 }
 
