@@ -55,7 +55,7 @@ fs.readdir("./cmds", (err, files) => {
 });
 
 bot.on("guildMemberAdd", function(member) {
-    member.guild.channels.find("name", "💬chat").send("<:1_:494901340426862592> "+ member.toString() +
+    member.guild.channels.find("name", "💬chat").send("<:Join:503203359097094154> "+ member.toString() +
           " **Welcome™ to " + `${member.guild.name}` + "**\n" +
           "1⃣ Read the <#381349368151932939> if you're bored\n"+
           "2⃣ Read the recent <#381349547701436429> 📄\n"+
