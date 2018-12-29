@@ -7,7 +7,7 @@ module.exports.run = (bot, message, args, discord) => {
   let embed = new Discord.RichEmbed()
   .setTitle("Fangs Timer")
   .setDescription("Okay, I'll count down, and let you know when the time is up!")
-  .setTimestamp()
+  .setTimestamp( )
   .setColor("RANDOM")
   .setFooter("Timer")
   message.channel.send(embed);
