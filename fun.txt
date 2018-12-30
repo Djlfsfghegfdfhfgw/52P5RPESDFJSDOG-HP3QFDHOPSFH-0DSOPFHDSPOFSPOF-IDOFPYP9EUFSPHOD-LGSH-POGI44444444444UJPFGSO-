@@ -18,3 +18,4 @@
 `+rps` **Rock,paper,scissors!** __Usage__: *+rps <rock|paper|scissors>*
 `+kill` **Time to die** __Usage__: *+kill [@user]*
 `+pat` **gotta pat that loli** __Usage__: *+pat [@user]*
+`+communist` **Join the commie force comrade** __Usage__: *+communist*
