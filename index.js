@@ -55,7 +55,7 @@ fs.readdir("./cmds", (err, files) => {
 });
 
 bot.on("guildMemberAdd", function(member) {
-    member.guild.channels.find("name", "general").send("<:welcome:528610966661759008> "+ member.toString() +
+    member.guild.channels.find("name", "general").send("<:cookieman:395881188713168897> "+ member.toString() +
           " **Welcome™ to " + `${member.guild.name}` + "**\n" +
           "1⃣ Read the <#381349368151932939> if you're bored\n"+
           "2⃣ Read the recent <#381349547701436429> 📄\n"+
