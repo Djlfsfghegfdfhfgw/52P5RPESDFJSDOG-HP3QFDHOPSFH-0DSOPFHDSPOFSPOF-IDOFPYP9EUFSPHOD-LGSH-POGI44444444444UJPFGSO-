@@ -25,9 +25,33 @@ fs.readdir("./cmds", (err, files) => {
     });
 });
 
-bot.on("message", function() {
-    bot.user.setActivity("communism || +help",{type:"STREAMING",url: "https://www.twitch.tv/oofman_" })
-    console.log;
+   bot.on('ready', function() {
+        setInterval(async () => {
+      const statuslist = [
+        `prey||+help`,
+        `mama night||+help`,
+        `your secrets||+help`,
+        `communism||+help`,
+        `your life||+help`,
+        `the cult||+help`,
+        `sadness||+help`,
+        `${bot.users.size} comrades||+help`
+      ];
+      const random = Math.floor(Math.random() * statuslist.length);
+  
+      try {
+        await bot.user.setPresence({
+          game: {
+            name: `${statuslist[random]}`,
+            type: "WATCHING"
+          },
+          status: "online"
+        });
+      } catch (error) {
+        console.error(error);
+      }
+    }, 10000);
+      console.log;
 });
 
 //bot.user.setGame("Froststar || +help");
