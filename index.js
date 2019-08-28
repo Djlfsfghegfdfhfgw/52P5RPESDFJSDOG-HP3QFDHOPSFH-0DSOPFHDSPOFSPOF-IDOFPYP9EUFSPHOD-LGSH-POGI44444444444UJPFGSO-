@@ -33,7 +33,8 @@ fs.readdir("./cmds", (err, files) => {
         `your secrets||+help`,
         `communism||+help`,
         `your life||+help`,
-        `the cult||+help`,
+        `the town||+help`,
+        `my bot wife||+help`,
         `sadness||+help`,
         `${bot.users.size} comrades||+help`
       ];
