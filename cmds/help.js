@@ -42,11 +42,11 @@ module.exports.run = async (bot, message, args) => {
     .setDescription(" ")
     .setColor("#0afffa")
     .setTitle("Support")
-    .setDescription("If you need help with something feel free to join the [Support Server](https://discord.gg/CTu2haz)")
+    .setDescription("If you need help with something feel free to join the [Support Server](https://discord.gg/QygTvP6)")
     .setFooter("<> means required, [] means optional",message.author.displayAvatarURL)
     .setTimestamp()
     .addField("Contact", "To contact the owner use `+contact`")
-    .addField("my owner will add more commands,sir","so please be pacient I have autism,also use the command +halp for more informations")
+    .addField("my owner will add more commands,sir","so please be pacient,use the command +halp for more informations")
     message.channel.send(supEmbed)
 }
 
